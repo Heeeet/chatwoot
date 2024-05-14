@@ -56,7 +56,7 @@ export default {
           referrerHost ? 'widget_branding' : 'survey_branding'
         }`;
         if (referrerHost) {
-          return `${baseURL}&utm_referrer=${referrerHost}`;
+          return `${baseURL}`;
         }
         return baseURL;
       } catch (e) {
